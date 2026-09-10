@@ -2,7 +2,7 @@
 ![GitHub Repository Health Analyzer Demo](screenshots/project-demo.png)
 ## 🚀 Live Demo
 
-👉 [Try the GitHub Repository Health Analyzer](https://app-repository-health-analyzer-glehjz3fy9vc4l2whni6aq.streamlit.app/)
+👉 [Try the GitHub Repository Health Analyzer](https://app-repository-health-analyzer-n5wwyexvfgckhj7rkpnxjg.streamlit.app/)
 
 ## 📌 Overview
 
