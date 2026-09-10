@@ -1,20 +1,14 @@
 import requests
+import streamlit as st
 import os
 from dotenv import load_dotenv
 
-
-# =================================
-# LOAD ENVIRONMENT VARIABLES
-# =================================
-
 load_dotenv()
 
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-
-
-# =================================
-# GITHUB API HEADERS
-# =================================
+try:
+    GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
+except Exception:
+    GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 headers = {
     "Authorization": f"Bearer {GITHUB_TOKEN}",
